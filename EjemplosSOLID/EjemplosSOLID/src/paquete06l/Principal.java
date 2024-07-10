@@ -14,6 +14,17 @@ public class Principal {
         
         MenorEdad menor = new MenorEdad("Felipe", representante);
         
+        Banco banco = new Banco();
+        
+        banco.estabecerNombre("Cacpe Zamora");
+        
+        TarjetaCredito tarjeta = new TarjetaCredito();
+        tarjeta.establecerNombre("1010101010101010");
+        tarjeta.establecerNombre("Daniel Campoverde");
+        tarjeta.establecerBanco(banco);
+        
+        
+        
         
         System.out.printf("Nombre:%s - Tarjeta:%s\n",
                 menor.obtenerNombre(), 
