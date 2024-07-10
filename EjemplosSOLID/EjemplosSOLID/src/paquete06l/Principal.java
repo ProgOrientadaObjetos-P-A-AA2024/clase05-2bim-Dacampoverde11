@@ -26,6 +26,8 @@ public class Principal {
         
         
         
+        
+        
         System.out.printf("Nombre:%s - Tarjeta:%s\n",
                 menor.obtenerNombre(), 
                 menor.obtenerRepresentante().obtenerTarjeta());
